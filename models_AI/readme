@@ -1,0 +1,16 @@
+
+加上day2需要重新修改
+
+直接运行，参数我都没改是默认的 python main_all.py 
+
+如果想改训练次数为k就运行，默认是10000次 python main_all.py --num_train_steps k
+也可以手动在代码改， 具体在main_all.py的 17-150 行，其他参数同理
+
+judge我不知道那个nearby_num是什么, 用来衡量什么的，我没用，原版里面也没这个代码
+
+Preprocess normalize Line 517-551
+
+
+如果换数据先运行 python main_all.py --stage preprocess
+然后再运行python main_all.py
+python main_all.py --stage test
